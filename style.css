@@ -1,0 +1,123 @@
+body{
+    background-image: url(./wp4312249.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.852);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 7px 7px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.item1{
+   display: flex;
+   justify-content: space-between;
+   column-gap: 80px;
+   padding: 20px;
+   color: aliceblue;
+
+   
+}
+
+.yan{
+    display: fl
+    gap: 90px;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    color: aliceblue;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+
+.div{
+    background-color: rgba(0, 0, 0, 0.728);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.style{
+    color: rgb(245, 245, 14);
+}
+
+
+h1{
+    
+    font-size: 60px;
+    font-family: fantasy serif  ; 
+
+}
+
+div p{
+    color: rgba(190, 191, 192, 0.653);
+}
+
+div button{
+  background-color:rgb(240, 239, 237);
+  border-radius: 4px;
+  flex-wrap: wrap;
+  border: none;
+  padding: 6px;
+  margin: 8px;
+}
+.f1{
+    color: rgb(200, 242, 14);
+}
+
+
+
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px;
+    margin: 0,auto;
+}
+
+.item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} 
+
+.span{
+    grid-column: 2 span;
+}
+.rowspan{
+    grid-row: 2 span;
+}
+
+@keyframes backgroundimageanimation {
+    0% {
+        background-position: 0% 0%;
+      }
+      50% {
+        background-position: 100% 100%;
+      }
+      100% {
+        background-position: 0% 0%;
+      }
+    
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: url(./wp4312249.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    animation:  backgroundimageanimation 20s infinite ;
+}
